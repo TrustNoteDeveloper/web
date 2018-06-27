@@ -30,3 +30,9 @@ social:
     url: https://github.com/TrustNoteDevelopers
   - title: TTT wallet
     url: https://trustnote.org/application.html
+
+download:
+  - title: headless
+    url: https://github.com/TrustNoteDevelopers/RPC
+  - title: python-sdk
+    url: https://github.com/TrustNoteDevelopers/python-sdk

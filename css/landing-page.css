@@ -58,6 +58,11 @@ h6 {
     
 }
 
+
+#getstarted{
+    text-align: left;
+}
+
 @media(max-width:767px) {
     /*
     .intro-message {

@@ -28,7 +28,20 @@
                 <p>search balance of address</p>
                 <pre>http://localhost/api/balance/VOXKRZWYYUP6JSSY7FZRKCQT3FAPWCFJ</pre>
                 <p>pay:(POST method)</p>
-                <pre>{address:"VOXKRZWYYUP6JSSY7FZRKCQT3FAPWCFJ",amount:50,token:"kPI5sZc1e7vG/nik67qDP4N8sjAnnhYRsUTUB/YvsTY="}</pre>
+                <pre>http://localhost/api/pay</pre>
+                <pre>$.post( "/api/pay", {
+                    address:"5ZCKATEOSYWIEXSOSIK2ZVMDXHTO6F32",
+                    amount:5,
+                    token:"kPI5sZc1e7vG/nik67qDP4N8sjAnnhYRsUTUB/YvsTY="
+                },function(response){
+                    console.log(response)
+                    response=JSON.parse(response)
+                    if(response.hasOwnProperty("error")){
+                        alert('抱歉，兑换失败')
+                    }else{
+                        alert('申请兑换成功')
+                    }
+                });</pre>
               </div>
         </div>
     </section>

@@ -6,16 +6,29 @@
               <h2>Get Started</h2>
               <br/>
                 <p>1、git clone</p>
-                <pre>git clone https://github.com/TrustNoteDevelopers/RPC.git
-                </pre>
+                <pre># git clone https://github.com/TrustNoteDevelopers/RPC.git</pre>
                 <p>2、install</p>
-                <pre>cd RPC</pre>
-                <pre>npm install</pre>
+                <pre># cd RPC</pre>
+                <pre># npm install</pre>
                 <p>3、init</p>
-                <pre>npm run init</pre>
+                <pre># npm run init</pre>
                 <p>4、run</p>
-                <pre>npm run rpc</pre>
+                <pre># npm run rpc</pre>
                 <br/>
+                <h2>python-sdk API:</h2>
+                <p>1、git clone</p>
+                <pre># git clone https://github.com/TrustNoteDevelopers/python-sdk.git</pre>
+                <p>2、run RESTful API</p>
+                <pre>cd python-sdk && python web.py</pre>
+                <p>now open http://localhost</p>
+                <p>get all address:</p>
+                <pre>http://localhost/api/address/all</pre>
+                <p>make a new address:</p>
+                <pre>http://localhost/api/address/new</pre>
+                <p>search balance of address</p>
+                <pre>http://localhost/api/balance/VOXKRZWYYUP6JSSY7FZRKCQT3FAPWCFJ</pre>
+                <p>pay:(POST method)</p>
+                <pre>{address:"VOXKRZWYYUP6JSSY7FZRKCQT3FAPWCFJ",amount:50,token:"kPI5sZc1e7vG/nik67qDP4N8sjAnnhYRsUTUB/YvsTY="}</pre>
               </div>
         </div>
     </section>

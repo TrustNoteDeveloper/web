@@ -28,8 +28,6 @@ social:
     url: https://twitter.com/TrustNote
   - title: github
     url: https://github.com/TrustNoteDevelopers
-  - title: TTT wallet
-    url: https://trustnote.org/application.html
 
 download:
   - title: headless

@@ -1,0 +1,32 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://github.com/TrustNoteDevelopers
+title: TrustNoteDevelopers
+email: community@trustnote.org
+author: TrustNote
+description: > # "Write an awesome description for your new site here. 
+  TrustNote exists to make development easy, fast and scalable, and to bring trust to an untrusting environment so you can - dream - invent - and create without constraint!
+copyright: 'Copyright &copy; 2018 TrustNoteDevelopers. All Rights Reserved.'
+#credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/TrustNote
+  - title: github
+    url: https://github.com/TrustNoteDevelopers
+  - title: TTT wallet
+    url: https://trustnote.org/application.html

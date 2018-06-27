@@ -59,12 +59,24 @@ h6 {
 }
 
 @media(max-width:767px) {
+    /*
     .intro-message {
         padding-bottom: 15%;
+    }*/
+
+    .intro-message {
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 0%;
     }
 
     .intro-message > h1 {
-        font-size: 3em;
+        /*font-size: 3em;*/
+        font-size: 2em;
+    }
+
+    .intro-message > h3 {
+        font-size: 1em;
     }
 
     ul.intro-social-buttons > li {

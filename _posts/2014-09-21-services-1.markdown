@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ipad.png
+img: task_1.jpg
 category: Services
 title: task 1
 description: |

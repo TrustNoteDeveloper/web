@@ -153,12 +153,12 @@
 <div id="nav">
   <div class="page box">
 
-            <a id="home" class="pc c-uhf-nav-link" href="">开发者</a>
-            <a id="downloads" class="c-uhf-nav-link" href="#downloads">sdk和工具</a>
-            <a id="samples" class="c-uhf-nav-link" href="#samples">例子</a>
-            <a id="tasks" class="c-uhf-nav-link" href="#tasks">任务</a>
-            <a id="docs" class="c-uhf-nav-link" href="#docs">文档</a>
-            <a id="contact" class="c-uhf-nav-link" href="#contact">联系方式</a>
+            <a class="pc c-uhf-nav-link" href="">开发者</a>
+            <a class="c-uhf-nav-link" href="#downloads">sdk和工具</a>
+            <a class="c-uhf-nav-link" href="#samples">例子</a>
+            <a class="c-uhf-nav-link" href="#tasks">任务</a>
+            <a class="c-uhf-nav-link" href="#docs">文档</a>
+            <a class="c-uhf-nav-link" href="#contact">联系方式</a>
 
   </div>
 </nav>
@@ -468,6 +468,9 @@
     $('#lang_zh').click(function(){
         $('.lang_en').hide();
         $('.lang_zh').show();
+    });
+    $(".c-uhf-nav-link").click(function(){
+        $('html,body').animate({scrollTop: $($(this).attr("href")).offset().top}, 800);
     });
 </script>
 

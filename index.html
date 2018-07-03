@@ -476,6 +476,10 @@
         $('.lang_en').hide();
         $('.lang_zh').show();
     });
+
+    $(".c-uhf-nav-link").click(function(){
+        $('html,body').animate({scrollTop: $($(this).attr("href")).offset().top}, 800);
+    });
 </script>
 
     

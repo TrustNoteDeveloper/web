@@ -2,9 +2,11 @@
 layout: default
 img: task_1.jpg
 category: Services
-title: TrustNote Wallet Localization: Volunteers Needed
+title: task 1
 description: |
 ---
+
+TrustNote Wallet Localization: Volunteers Needed
 
 Hello everyone!
 

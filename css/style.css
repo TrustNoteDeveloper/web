@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .at { display:block; height:0; }
+  #lang_en,#lang_zh{
+      cursor: pointer;
+  }
+  body{
+    background: linear-gradient(#e1e8ec,#fff);
+    background:#e1e8ec;
+    margin-top: 50px;
+  }
+  .page{
+    max-width: 900;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+  .box{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #nav{
+    background: #2f2f2f;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  .c-uhf-nav-link{
+    padding: 0 10px 0 10px;
+    display: inline-block;
+  }
+  .c-uhf-nav-link:hover{
+    background: #32373c;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  h1{
+    font-size: 46px;
+    line-height: 56px;
+    padding: 37px 0 3px;
+    font-weight: 100;
+    letter-spacing: -.01em;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .download_link_pan{
+    /* display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    */
+    /* margin: 10 auto; */
+    /*
+    width: 30%;
+    display: inline-block;*/
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    width: 300px;
+  }
+
+  .c-card-content{
+    background: #fff;
+    margin: 0 auto;
+    width: 80%;
+    margin: 5%;
+    padding: 5%;
+  }
+
+  .c-card-content:hover{
+      box-shadow: 0px 0px 10px #cccccc;
+  }
+
+  p{
+    line-height: 30px;
+  }
+
+  .download_link{
+    background-color: #865fc5;
+    color: #fff;
+    min-width: 120px;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 9px 12px 10px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: bottom;
+    -webkit-transition: scale .2s ease-in-out;
+    -o-transition: scale .2s ease-in-out;
+    transition: scale .2s ease-in-out;  
+    
+  }
+  
+  
+
+  .disabled{
+    background: darkgray;
+    cursor: wait;
+  }
+  .c-image{
+    display: none;
+  }
+
+@media only screen and (max-width: 750px){
+    .box{
+        flex-direction: column;
+    }
+  .c-uhf-nav-link{
+    display: none;
+  }
+  .pc{
+    display: block;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .download_link_pan{
+    width: 90%;
+  }
+  .c-card-content{
+    margin: 10px auto;
+  }
+}
+
+
+.avatar-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.readmore{
+    color: #005da6;
+}
+
+.footer{
+    background: #f2f2f2;
+    margin-top:30px;
+}
+
+.lang_zh{
+    display: none;
+}

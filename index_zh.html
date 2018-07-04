@@ -1,159 +1,9 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
-<style>
-        *{
-          margin: 0;
-          padding: 0;
-        }
-        #lang_en,#lang_zh{
-            cursor: pointer;
-        }
-        body{
-          background: linear-gradient(#e1e8ec,#fff);
-          background:#e1e8ec;
-        }
-        .page{
-          max-width: 900;
-          margin: 0 auto;
-          width: 90%;
-          text-align: center;
-        }
-        .box{
-          display: flex;
-          flex-direction: row;
-          margin: 0 auto;
-          text-align: center;
-        }
-        #nav{
-          background: #2f2f2f;
-          width: 100%;
-          height: 50px;
-          line-height: 50px;
-          
-        }
-        .c-uhf-nav-link{
-          padding: 0 10px 0 10px;
-          display: inline-block;
-        }
-        .c-uhf-nav-link:hover{
-          background: #32373c;
-        }
-        a{
-          text-decoration: none;
-          color: #fff;
-        }
-        h1{
-          font-size: 46px;
-          line-height: 56px;
-          padding: 37px 0 3px;
-          font-weight: 100;
-          letter-spacing: -.01em;
-          text-align: center;
-          padding-bottom: 30px;
-        }
-        .download_link_pan{
-          /* display: flex; 
-          flex-direction: column;
-          justify-content: space-between;
-          */
-          /* margin: 10 auto; */
-          /*
-          width: 30%;
-          display: inline-block;*/
-          text-align: center;
-          margin: 0 auto;
-          padding: 0px;
-          width: 300px;
-        }
-      
-        .c-card-content{
-          background: #fff;
-          margin: 0 auto;
-          width: 80%;
-          margin: 5%;
-          padding: 5%;
-        }
-      
-        .c-card-content:hover{
-            box-shadow: 0px 0px 10px #cccccc;
-        }
-      
-        p{
-          line-height: 30px;
-        }
-      
-        .download_link{
-          background-color: #865fc5;
-          color: #fff;
-          min-width: 120px;
-          display: inline-block;
-          margin-top: 12px;
-          padding: 9px 12px 10px;
-          border: 1px solid transparent;
-          overflow: hidden;
-          line-height: 1;
-          text-align: center;
-          white-space: nowrap;
-          vertical-align: bottom;
-          -webkit-transition: scale .2s ease-in-out;
-          -o-transition: scale .2s ease-in-out;
-          transition: scale .2s ease-in-out;  
-          
-        }
-        
-        
-      
-        .disabled{
-          background: darkgray;
-          cursor: wait;
-        }
-        .c-image{
-          display: none;
-        }
-      
-      @media only screen and (max-width: 750px){
-          .box{
-              flex-direction: column;
-          }
-        .c-uhf-nav-link{
-          display: none;
-        }
-        .pc{
-          display: block;
-        }
-        h1{
-          font-size: 2rem;
-        }
-        .download_link_pan{
-          width: 90%;
-        }
-        .c-card-content{
-          margin: 10px auto;
-        }
-      }
-      
-      
-      .avatar-image{
-          width: 50px;
-          height: 50px;
-          border-radius: 100%;
-      }
-      
-      .readmore{
-          color: #005da6;
-      }
-      
-      .footer{
-          background: #f2f2f2;
-          margin-top:30px;
-      }
-      
-
-      
-      </style>
+<link rel="stylesheet" href="css/style.css">
 <div id="nav">
   <div class="page box">
 
-            <a class="pc c-uhf-nav-link" href="">开发者</a>
+            <a class="pc c-uhf-nav-link">TrustNote开发者社区</a>
             <a class="c-uhf-nav-link" href="#downloads">sdk和工具</a>
             <a class="c-uhf-nav-link" href="#samples">例子</a>
             <a class="c-uhf-nav-link" href="#tasks">任务</a>
@@ -161,58 +11,58 @@
             <a class="c-uhf-nav-link" href="#contact">联系方式</a>
 
   </div>
-</nav>
+</div>
 <div id="downloads" name="downloads">
   <div class="page">
-      <h1 class="lang_zh c-heading-2 f-lean">sdk和工具</h1>
+      <h1 class="c-heading-2 f-lean">sdk和工具</h1>
       <div class="box">
-        <div class="download_link_pan select" style="cursor: pointer;">
+        <div class="download_link_pan select" >
             <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                 <div>
                     <div class="cx-cards-image-top-center">
                         <img class="c-image" alt="" src="Default.png">
                     </div>
                     <h2 class="c-heading-5 cxf-card-content-heading-col-3">headlessRPC</h2>
-                    <p class="lang_zh c-paragraph">
+                    <p class=" c-paragraph">
                         面向开发专家的源码级产品，自由部署，随意调用
                     </p>
                 </div>
                 <div class="cx-cards-button-bottom-center x-hidden-focus">
-                    <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/RPC">查看源码</a>
+                    <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/RPC">查看源码</a>
                 </div>
             </div>
         </div>
 
-        <div class="download_link_pan select" style="cursor: pointer;">
+        <div class="download_link_pan select" >
             <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                 <div>
                     <div class="cx-cards-image-top-center">
                         <img class="c-image" alt="" src="Default.png">
                     </div>
                     <h2 class="c-heading-5 cxf-card-content-heading-col-3">PythonSDK</h2>
-                    <p class="lang_zh c-paragraph">
+                    <p class=" c-paragraph">
                         配合headlessRPC，提供更友好的RESTful API
                     </p>
                 </div>
                 <div class="cx-cards-button-bottom-center x-hidden-focus">
-                    <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/python-sdk">查看源码</a>
+                    <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/python-sdk">查看源码</a>
                 </div>
             </div>
         </div>
 
-        <div class="download_link_pan select" style="cursor: pointer;">
+        <div class="download_link_pan select" >
             <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                 <div>
                     <div class="cx-cards-image-top-center">
                         <img class="c-image" alt="" src="Default.png">
                     </div>
                     <h2 class="c-heading-5 cxf-card-content-heading-col-3">headlessVM</h2>
-                    <p class="lang_zh c-paragraph">
+                    <p class=" c-paragraph">
                             跨平台虚拟环境，死劲开发，不怕系统崩溃
                     </p>
                 </div>
                 <div class="cx-cards-button-bottom-center x-hidden-focus">
-                    <a class="lang_zh download_link" target="_blank" role="button" href="http://150.109.55.13/download/headlessVM.zip">猛击下载</a>
+                    <a class=" download_link" target="_blank" role="button" href="http://150.109.55.13/download/headlessVM.zip">猛击下载</a>
                 </div>
             </div>
         </div>
@@ -222,55 +72,55 @@
 
 <div id="samples" name="samples">
     <div class="page">
-        <h1 class="lang_zh c-heading-2 f-lean">例子</h1>
+        <h1 class="c-heading-2 f-lean">例子</h1>
         <div class="box">
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                     <div>
                         <div class="cx-cards-image-top-center">
                             <img class="c-image" alt="" src="Default.png">
                         </div>
                         <h2 class="c-heading-5 cxf-card-content-heading-col-3">worldcup</h2>
-                        <p class="lang_zh c-paragraph">
+                        <p class=" c-paragraph">
                                 TTT66群使用headless开发的世界杯小游戏
                         </p>
                     </div>
                     <div class="cx-cards-button-bottom-center x-hidden-focus">
-                        <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/samples/%E4%B8%96%E7%95%8C%E6%9D%AF.md">阅读原文</a>
+                        <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/samples/%E4%B8%96%E7%95%8C%E6%9D%AF.md">阅读原文</a>
                     </div>
                 </div>
             </div>
     
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                     <div>
                         <div class="cx-cards-image-top-center">
                             <img class="c-image" alt="" src="Default.png">
                         </div>
                         <h2 class="c-heading-5 cxf-card-content-heading-col-3">itoken.top</h2>
-                        <p class="lang_zh c-paragraph">
+                        <p class=" c-paragraph">
                                 基于ERC20，每个人都可以发行自己的数字资产
                         </p>
                     </div>
                     <div class="cx-cards-button-bottom-center x-hidden-focus">
-                        <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/samples/%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B8%83%E5%B9%B3%E5%8F%B0.md">阅读原文</a>
+                        <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/samples/%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B8%83%E5%B9%B3%E5%8F%B0.md">阅读原文</a>
                     </div>
                 </div>
             </div>
     
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                     <div>
                         <div class="cx-cards-image-top-center">
                             <img class="c-image" alt="" src="Default.png">
                         </div>
                         <h2 class="c-heading-5 cxf-card-content-heading-col-3">T-code</h2>
-                        <p class="lang_zh c-paragraph">
+                        <p class=" c-paragraph">
                                 有口令，就有红包。口令越多，红包越多，多多益善
                         </p>
                     </div>
                     <div class="cx-cards-button-bottom-center x-hidden-focus">
-                        <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/samples/T%E5%8F%A3%E4%BB%A4.md">阅读原文</a>
+                        <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/samples/T%E5%8F%A3%E4%BB%A4.md">阅读原文</a>
                     </div>
                 </div>
             </div>
@@ -280,55 +130,55 @@
 
 <div id="tasks" name="tasks">
     <div class="page">
-        <h1 class="lang_zh c-heading-2 f-lean">任务</h1>
+        <h1 class="c-heading-2 f-lean">任务</h1>
         <div class="box">
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                     <div>
                         <div class="cx-cards-image-top-center">
                             <img class="c-image" alt="" src="Default.png">
                         </div>
-                        <h2 class="lang_zh c-heading-5 cxf-card-content-heading-col-3">任务 1</h2>
-                        <p class="lang_zh c-paragraph">
+                        <h2 class=" c-heading-5 cxf-card-content-heading-col-3">任务 1</h2>
+                        <p class=" c-paragraph">
                                 我们需要一个大好人做一款英文版的钱包解救那些生活在水深火热中的歪果仁
                         </p>
                     </div>
                     <div class="cx-cards-button-bottom-center x-hidden-focus">
-                        <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/tasks/%E4%BB%BB%E5%8A%A11.md">立刻参与</a>
+                        <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/tasks/%E4%BB%BB%E5%8A%A11.md">立刻参与</a>
                     </div>
                 </div>
             </div>
 
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                     <div>
                         <div class="cx-cards-image-top-center">
                             <img class="c-image" alt="" src="Default.png">
                         </div>
-                        <h2 class="lang_zh c-heading-5 cxf-card-content-heading-col-3">任务 2</h2>
-                        <p class="lang_zh c-paragraph">
+                        <h2 class=" c-heading-5 cxf-card-content-heading-col-3">任务 2</h2>
+                        <p class=" c-paragraph">
                                 优化区块链浏览器，神马交易都能轻松查看，让用户爽到爆
                         </p>
                     </div>
                     <div class="cx-cards-button-bottom-center x-hidden-focus">
-                        <a class="lang_zh download_link" target="_blank" role="button" href="#">等待开始</a>
+                        <a class=" download_link" target="_blank" role="button" href="#">等待开始</a>
                     </div>
                 </div>
             </div>
 
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                     <div>
                         <div class="cx-cards-image-top-center">
                             <img class="c-image" alt="" src="Default.png">
                         </div>
-                        <h2 class="lang_zh c-heading-5 cxf-card-content-heading-col-3">任务 3</h2>
-                        <p class="lang_zh c-paragraph">
+                        <h2 class=" c-heading-5 cxf-card-content-heading-col-3">任务 3</h2>
+                        <p class=" c-paragraph">
                                 做一款基于TrustNote公链的德州扑克吧，别让我们等到花儿都谢了
                         </p>
                     </div>
                     <div class="cx-cards-button-bottom-center x-hidden-focus">
-                        <a class="lang_zh download_link" target="_blank" role="button" href="#">等待开始</a>
+                        <a class=" download_link" target="_blank" role="button" href="#">等待开始</a>
                     </div>
                 </div>
             </div>
@@ -340,56 +190,56 @@
 
 <div id="docs" name="docs">
     <div class="page">
-        <h1 class="lang_zh c-heading-2 f-lean">文档</h1>
+        <h1 class="c-heading-2 f-lean">文档</h1>
         <div class="box">
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                         <div>
                             <div class="cx-cards-image-top-center">
                                 <img class="c-image" alt="" src="Default.png">
                             </div>
                             <h2 class="c-heading-5 cxf-card-content-heading-col-3">headlessRPC</h2>
-                            <p class="lang_zh c-paragraph">
+                            <p class=" c-paragraph">
                                     如何使用 headlessRPC
                             </p>
                         </div>
                         <div class="cx-cards-button-bottom-center x-hidden-focus">
-                            <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/docs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8headlessRPC.md">阅读原文</a>
+                            <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/docs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8headlessRPC.md">阅读原文</a>
                         </div>
                 </div>
             </div>
 
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                         <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                             <div>
                                 <div class="cx-cards-image-top-center">
                                     <img class="c-image" alt="" src="Default.png">
                                 </div>
                                 <h2 class="c-heading-5 cxf-card-content-heading-col-3">PythonSDK</h2>
-                                <p class="lang_zh c-paragraph">
+                                <p class=" c-paragraph">
                                         如何使用 PythonSDK
                                 </p>
                             </div>
                             <div class="cx-cards-button-bottom-center x-hidden-focus">
-                                <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/docs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8pythonSDK.md">阅读原文</a>
+                                <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/docs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8pythonSDK.md">阅读原文</a>
                             </div>
                         </div>
             </div>
 
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                         <div>
                                     <div class="cx-cards-image-top-center">
                                         <img class="c-image" alt="" src="Default.png">
                                     </div>
                                     <h2 class="c-heading-5 cxf-card-content-heading-col-3">headlessVM</h2>
-                                    <p class="lang_zh c-paragraph">
+                                    <p class=" c-paragraph">
                                             如何使用 headlessVM
                                         </p>
                         </div>
 
                         <div class="cx-cards-button-bottom-center x-hidden-focus">
-                            <a class="lang_zh download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/docs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8headlessVM.md">阅读原文</a>
+                            <a class=" download_link" target="_blank" role="button" href="https://github.com/TrustNoteDevelopers/wiki/blob/master/docs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8headlessVM.md">阅读原文</a>
                         </div>
                 </div>
             </div>
@@ -399,9 +249,9 @@
 
 <div id="contact" name="contact">
     <div class="page">
-        <h1 class="lang_zh c-heading-2 f-lean">联系我们</h1>
+        <h1 class="c-heading-2 f-lean">联系我们</h1>
         <div class="box">
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                 <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                     <div>
                         <div class="cx-cards-image-top-center">
@@ -418,7 +268,7 @@
                 </div>
             </div>
 
-            <div class="download_link_pan select" style="cursor: pointer;">
+            <div class="download_link_pan select" >
                     <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                         <div>
                             <div class="cx-cards-image-top-center">
@@ -435,7 +285,7 @@
                     </div>
                 </div>
 
-                <div class="download_link_pan select" style="cursor: pointer;">
+                <div class="download_link_pan select" >
                         <div class="c-card-content cxf-card-content cxf-card-content-col-3">
                             <div>
                                 <div class="cx-cards-image-top-center">
@@ -463,11 +313,11 @@
 <script>
     $('#lang_en').click(function(){
         $('.lang_en').show();
-        $('.lang_zh').hide();
+        $('.').hide();
     });
-    $('#lang_zh').click(function(){
+    $('#').click(function(){
         $('.lang_en').hide();
-        $('.lang_zh').show();
+        $('.').show();
     });
     $(".c-uhf-nav-link").click(function(){
         $('html,body').animate({scrollTop: $($(this).attr("href")).offset().top}, 800);

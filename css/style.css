@@ -13,8 +13,7 @@
 }
 
 body {
-    background: linear-gradient(#e1e8ec,#fff);
-    background: #e1e8ec;
+    background: #ffffff;
     margin-top: 50px;
 }
 
@@ -72,10 +71,11 @@ h1 {
     margin: 0 auto;
     padding: 0px;
     width: 300px;
+    
 }
 
 .c-card-content {
-    background: #fff;
+    background: #f7f9fa;
     margin: 0 auto;
     width: 80%;
     margin: 5%;
@@ -94,8 +94,7 @@ p {
 }
 
 .download_link {
-    background-color: #865fc5;
-    color: #fff;
+    color: #414141;
     min-width: 120px;
     display: inline-block;
     margin-top: 12px;
